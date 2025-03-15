@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{186B43CD-48C4-420E-9CFC-AC001AF9139E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressVpnSpeedTestLibrary", "src\ExpressVpnSpeedTestLibrary\ExpressVpnSpeedTestLibrary.csproj", "{3C331BEA-9E68-4397-9232-517ADE452D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressVpnSpeedTest", "src\ExpressVpnSpeedTest\ExpressVpnSpeedTest.csproj", "{5633F82C-B1AD-4BD7-90E4-47B50FF14B97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E5EDA057-6AEC-4438-B53D-A5215F8BCC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressVpnSpeedTestTests", "tests\ExpressVpnSpeedTest.UnitTests\ExpressVpnSpeedTestTests.csproj", "{6A67B964-AF91-4539-A9DA-F5E00B30207C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressVpnSpeedTest.IntegrationTests", "tests\ExpressVpnSpeedtest.IntegrationTests\ExpressVpnSpeedTest.IntegrationTests.csproj", "{C1F05FE8-1DBA-42C7-AAFF-AA5FED6B47DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C331BEA-9E68-4397-9232-517ADE452D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C331BEA-9E68-4397-9232-517ADE452D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C331BEA-9E68-4397-9232-517ADE452D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C331BEA-9E68-4397-9232-517ADE452D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5633F82C-B1AD-4BD7-90E4-47B50FF14B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633F82C-B1AD-4BD7-90E4-47B50FF14B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633F82C-B1AD-4BD7-90E4-47B50FF14B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633F82C-B1AD-4BD7-90E4-47B50FF14B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A67B964-AF91-4539-A9DA-F5E00B30207C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A67B964-AF91-4539-A9DA-F5E00B30207C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A67B964-AF91-4539-A9DA-F5E00B30207C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A67B964-AF91-4539-A9DA-F5E00B30207C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F05FE8-1DBA-42C7-AAFF-AA5FED6B47DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F05FE8-1DBA-42C7-AAFF-AA5FED6B47DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F05FE8-1DBA-42C7-AAFF-AA5FED6B47DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F05FE8-1DBA-42C7-AAFF-AA5FED6B47DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C331BEA-9E68-4397-9232-517ADE452D93} = {186B43CD-48C4-420E-9CFC-AC001AF9139E}
+		{5633F82C-B1AD-4BD7-90E4-47B50FF14B97} = {186B43CD-48C4-420E-9CFC-AC001AF9139E}
+		{6A67B964-AF91-4539-A9DA-F5E00B30207C} = {E5EDA057-6AEC-4438-B53D-A5215F8BCC08}
+		{C1F05FE8-1DBA-42C7-AAFF-AA5FED6B47DD} = {E5EDA057-6AEC-4438-B53D-A5215F8BCC08}
+	EndGlobalSection
+EndGlobal

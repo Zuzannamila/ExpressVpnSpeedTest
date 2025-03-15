@@ -1,0 +1,11 @@
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/bin/Debug/net8.0/ExpressVpnSpeedTestLibrary.deps.json
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/bin/Debug/net8.0/ExpressVpnSpeedTestLibrary.dll
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/bin/Debug/net8.0/ExpressVpnSpeedTestLibrary.pdb
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/ExpressVpnSpeedTestLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/ExpressVpnSpeedTestLibrary.AssemblyInfoInputs.cache
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/ExpressVpnSpeedTestLibrary.AssemblyInfo.cs
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/ExpressVpnSpeedTestLibrary.csproj.CoreCompileInputs.cache
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/ExpressVpnSpeedTestLibrary.dll
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/refint/ExpressVpnSpeedTestLibrary.dll
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/ExpressVpnSpeedTestLibrary.pdb
+/Users/zuzannamila/source/code/ExpressVpnSpeedTest/src/ExpressVpnSpeedTestLibrary/obj/Debug/net8.0/ref/ExpressVpnSpeedTestLibrary.dll

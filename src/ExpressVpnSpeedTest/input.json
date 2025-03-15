@@ -1,0 +1,8 @@
+{
+    "locations": [
+      { "country": "Poland", "city": "Warsaw", "ovpnConfigFile": "my_expressvpn_poland_udp.ovpn" },
+      { "country": "Ukraine", "city": "Kiev", "ovpnConfigFile": "my_expressvpn_ukraine_udp.ovpn" },
+      { "country": "United States", "city": "Denver", "ovpnConfigFile": "my_expressvpn_usa_-_denver_udp.ovpn" }
+    ]
+  }
+  

@@ -1,0 +1,38 @@
+{
+  "MachineName": "94610baa68c1",
+  "OS": "Unix 6.10.14.0",
+  "WithoutVPN": {
+    "DownloadMbps": 90,
+    "UploadMbps": 101,
+    "PingMs": 8
+  },
+  "VPNStats": [
+    {
+      "LocationName": "Warsaw, Poland",
+      "TimeToConnect": "10.09 seconds",
+      "VPNSpeed": {
+        "DownloadMbps": 48,
+        "UploadMbps": 58,
+        "PingMs": 14
+      }
+    },
+    {
+      "LocationName": "Kiev, Ukraine",
+      "TimeToConnect": "10.03 seconds",
+      "VPNSpeed": {
+        "DownloadMbps": 56,
+        "UploadMbps": 61,
+        "PingMs": 34
+      }
+    },
+    {
+      "LocationName": "Denver, United States",
+      "TimeToConnect": "10.04 seconds",
+      "VPNSpeed": {
+        "DownloadMbps": 13,
+        "UploadMbps": 30,
+        "PingMs": 157
+      }
+    }
+  ]
+}
