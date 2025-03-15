@@ -2,6 +2,7 @@
 A console application built with .NET 8 that runs internet speed tests both with and without a VPN connection. This tool uses Ookla-cli for speed testing and the CliWrap library to simplify command-line interactions.
 
 OVERVIEW
+
 ExpressVpnSpeedTest is designed to:
 Measure baseline internet speeds without VPN.
 Connect to various VPN locations (using configuration files for OpenVPN).
@@ -10,6 +11,7 @@ Record connection times and average speed results over five test iterations per 
 Due to limitations in running ExpressVPN CLI directly in Docker (systemd issues), the tool uses OpenVPN with configuration files. As tracking the exact connection time can be challenging in this environment, a fixed assumption of 10 seconds is used for connection timing.
 
 WORKFLOW
+
 Program Orchestration:
 Program.cs reads an input.json file located at the root of the project.
 The application orchestrates speed tests and VPN connections sequentially.
@@ -27,6 +29,7 @@ Docker Environment:
 The app is containerized, running on Debian (default for Microsoft.Sdk) to avoid Linux-specific configuration issues.
 
 SETUP
+
 docker run --rm -it \
   --cap-add=NET_ADMIN \
   --device /dev/net/tun \
@@ -35,6 +38,7 @@ docker run --rm -it \
   expressvpn-speedtest:1.0.0
 
 INPUT
+
 The utility accepts an input.json file with the following structure:
 {
     "locations": [
@@ -45,6 +49,7 @@ The utility accepts an input.json file with the following structure:
 }
   
 OUTPUT
+
 Output json file in in the output folder in the ExpressVpnSpeedtest console app root directory if ran with -v "$(pwd)/src/ExpressVpnSpeedTest/output:/app/output" \
 {
   "MachineName": "17b497e7cf1c",
@@ -86,7 +91,8 @@ Output json file in in the output folder in the ExpressVpnSpeedtest console app 
 }
 
 LOGGING
--  I implemented vast logging throught the application:
+
+-  I implemented vast logging throughout the application:
 -  info: Program[0]
       Test started
 info: ExpressVpnSpeedTest.Utils.FileHelper[0]
